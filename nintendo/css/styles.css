@@ -1,0 +1,130 @@
+/* CSS Document */
+
+/* Colors:
+Red - #f40000
+White - #f7fdfc 
+
+Fonts:
+font-family: 'Bakbak One', cursive;
+font-family: 'Press Start 2P', cursive;
+*/
+
+/* CSS Browser Reset */
+body, header, nav, main, footer, h1, h2, img, blockquote, table {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+header {
+	background-color: #F40000;
+}
+
+header img {
+	width: 45%;
+	margin: 0 auto;
+	border: 5px solid #fff;
+}
+
+header h1 {
+	text-align: center;
+	color: #f7fdfc;
+	font-family: 'Press Start 2P', cursive;
+	padding: 1%;
+	font-size: 1.5em;
+}
+
+nav {
+	text-align: center;
+	background-color: #000;
+	font-family: 'Bakbak One', cursive;
+	padding: 0.1em;
+}
+
+nav a {
+	color: #f7fdfc;
+	text-decoration: none;
+	font-size: 2em;
+	padding: 0.5em;
+}
+
+nav a:hover {
+	color: #f40000;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.3em;
+}
+
+main {
+	padding: 2%;
+	background-color: #fff;
+}
+
+main h2 {
+	font-size: 2em;
+	font-family: 'Press Start 2P', cursive;
+}
+
+main img {
+	max-width: 50%;
+	float: right;
+}
+
+main p {
+	font-size: 1.5em;
+}
+
+/* History Table */
+table {
+	width: 90%;
+	margin: 0 auto;
+}
+
+th {
+	font-size: 1.5em;
+}
+
+td {
+	padding: 10px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 15%;
+}
+
+.navbar {
+	text-align: center;
+	background-color: #000;
+	padding: 0.1em;
+	font-family: 'Bakbak One', cursive;
+}
+
+.navbar a {
+	color: #f7fdfc;
+	text-decoration: none;
+	font-size: 2em;
+	padding: 0.5em;
+}
+
+.navbar a:hover {
+	color: #f40000;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.3em;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,274 @@
+/* CSS Document */
+
+/* Colors:
+Red: #9D060B
+Green: #3F422F
+Orange: #E65E10
+Brown: #AF5C3C
+White-ish: #F4E1D0
+Dark Brown: #64463E;
+*/
+
+/* Fonts:
+   font-family: 'BhuTuka Expanded One', cursive;
+   font-family: 'Kolker Brush', cursive;
+   font-family: 'Libre Baskerville', serif;
+*/
+
+/* CSS Browser Reset */
+body, header, nav, main, section, ul, li, a, footer, img, h1, h2 {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #3F422F;
+	color: #fff;
+	font-size: 1.15em;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Style rules for header */
+header {
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+/* Container holding the image and the text */
+.container {
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+
+/* Centered Text */
+.centered {
+	position: absolute;
+	top: 55%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	font-family: 'Kolker Brush', cursive;
+	font-size: 2.9em;
+	color: #fff;
+}
+
+#hot-choco {
+	background-color:#9D060B;
+	min-height: 300px;
+	padding: 5% 2% 3% 2%;
+}
+
+#brushes {
+	background-color:#F4E1D0;
+	min-height: 300px;
+	padding: 5% 2% 3% 2%;
+	color: #000;
+}
+
+#bunny {
+	background-color:#9D060B;
+	min-height: 300px;
+	padding: 5% 2% 3% 2%;
+}
+
+#sweater {
+	background-color:#F4E1D0;
+	min-height: 300px;
+	padding: 5% 2% 3% 2%;
+	color: #000;
+}
+
+#money {
+	background-color:#9D060B;
+	min-height: 300px;
+	padding: 5% 2% 3% 2%;
+}
+
+#leif {
+	background-color:#F4E1D0;
+	min-height: 300px;
+	padding: 5% 2% 3% 2%;
+	color: #000;
+}
+
+#aether {
+	background-color:#9D060B;
+	min-height: 300px;
+	padding: 5% 2% 3% 2%;
+}
+
+#chocolates {
+	background-color:#F4E1D0;
+	min-height: 300px;
+	padding: 5% 2% 3% 2%;
+	color: #000;
+}
+
+#converse {
+	background-color:#9D060B;
+	min-height: 300px;
+	padding: 5% 2% 3% 2%;
+}
+
+.cssGrid {
+	display: block;
+	width: 100%;
+}
+
+/* Style rules for navigation */
+nav {
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	font-family: 'BhuTuka Expanded One', cursive;
+}
+
+nav li {
+	font-size: 1.5em;
+	border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+
+/* Style rules for main sections*/
+section img {
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 2px;
+	opacity: 1;
+	border-radius: 0.5em;
+}
+
+section img:hover {
+	opacity: 0.9;
+}
+
+
+section h1 {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'BhuTuka Expanded One', cursive;
+}
+
+/* Show mobile class, hide tablet-desktop */
+.mobile {
+	display: block;
+}
+
+.tablet-desktop {
+	display: none;
+}
+
+/* Media Query for tablet viewports */
+@media screen and (min-width: 677px), print {
+	.tablet-desktop {
+		display: block;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	
+	.centered {
+		font-size: 4.5em;
+	}
+	
+	nav ul {
+	list-style-type: none;
+	text-align: center;
+	}
+
+	nav li {
+	display: inline-block;
+	font-size: 2em;
+	border-right: 1px solid #fff;
+	border-bottom: none;
+	border-top: none;
+	}
+
+	nav li:last-child {
+		border: none;
+	}
+
+	nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	font-size: 0.6em;
+	}
+	
+	nav li a:hover {
+	background-color: #9D060B;
+	}
+	
+	#hot-choco, #brushes, #bunny, #sweater, #money, #leif, #aether, #chocolates, #converse {
+		width: 25%;
+		float: left;
+		margin: 0 2%;
+	}
+	
+	section h1 {
+		font-size: 0.8em;
+	}
+}
+/* Closing Media Query Tablet */
+
+/* Media Query Desktop */
+@media screen and (min-width: 1150px), print {
+	.centered {
+		font-size: 8em;
+	}
+	
+	nav li a {
+		font-size: 1em;
+	}
+	
+	section h1 {
+		font-size: 1.3em;
+	}
+}
+/* Closing Media Query Desktop */
+
+/* Media Query Large Screen */
+@media screen and (min-width: 1250px), print {
+	#container {
+	width: 1250px;
+	margin: 0 auto;
+	}
+}
+/* Closing Large Screen Query*/
+footer {
+	width: 100%;
+	padding: 5% 0 10% 0;
+	font-size: 0.75em;
+	background-color: #3F422F;
+	color: #fff;
+	text-align: center;
+}
+
+footer p a {
+	text-decoration: none;
+	color: #fff;
+}
+

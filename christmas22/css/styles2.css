@@ -1,0 +1,106 @@
+/* CSS Document */
+
+/* CSS Browser Reset*/
+body, header, nav, main, p, footer, img, h1, h3, h4, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #3F422F;
+}
+
+img {
+	max-width: 45%;
+	padding: 10px;
+	float: left;
+	border-radius: 1.5em;
+}
+
+header h1 {
+	font-size: 5em;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Kolker Brush', cursive;
+	color: #fff;
+	background-color: #9D060B;
+}
+
+/* Style rules for navigation */
+nav {
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	}
+
+nav li {
+	display: inline-block;
+	font-size: 1.6em;
+	border-right: 1px solid #fff;
+	border-bottom: none;
+	border-top: none;
+	}
+
+nav li:last-child {
+		border: none;
+	}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	font-size: 0.6em;
+	font-family: 'BhuTuka Expanded One', cursive;
+	}
+
+nav li a:hover {
+	background-color: #9D060B;
+}
+
+main p {
+	padding: 0.5em;
+	margin: 0 auto;
+	text-align: left;
+	color: #fff;
+	font-size: 1em;
+	font-family: 'Libre Baskerville', serif;
+}
+
+h4 {
+	font-size: 1.8em;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-family: 'BhuTuka Expanded One', cursive;
+}
+
+@media screen and (min-width: 677px), print {
+	h4 {
+		font-size: 2.2em;
+	}
+	
+	main p {
+		font-size: 1.5em;
+	}
+}
+
+footer {
+	width: 100%;
+	padding: 25% 0 10% 0;
+	font-size: 0.75em;
+	background-color: #3F422F;
+	color: #fff;
+	text-align: center;
+}
+
+footer p a {
+	text-decoration: none;
+	color: #fff;
+}

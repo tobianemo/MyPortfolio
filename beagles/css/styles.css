@@ -1,0 +1,234 @@
+/* CSS Document */
+
+/* Google Fonts: 
+	font-family: 'Acme', sans-serif;
+	round ish skinny
+	font-family: 'EB Garamond', serif;
+	basic
+	font-family: 'Rubik Gemstones', cursive;
+	spotty furry one
+	font-family: 'Rubik Vinyl', cursive;
+	bubble like text
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #e4f2ea;
+	background-image: url("../images/beagles-background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hnav {
+	width: 100%;
+	background-color: #11181e;
+	min-height: 50px;
+	text-align: center;
+}
+
+.hnav ul {
+	display: block;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 2%;
+}
+
+.hnav a {
+	text-decoration: none;
+	color: #e4f2ea;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+}
+
+.hnav a:hover {
+	color: #724f43;
+	font-family: 'Rubik Vinyl', cursive;
+}
+
+header {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/appearance_beagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+header h1 {
+	font-size: 7em;
+	color: #e4f2ea;
+	margin-left: 8%;
+	font-family: 'Rubik Vinyl', cursive;
+}
+
+header h2 {
+	font-size: 3em;
+	color: #e4f2ea;
+	margin-left: 15%;
+	font-family: 'Acme', sans-serif;
+}
+
+main {
+	width: 100%;
+	min-height: 500px;
+}
+
+blockquote {
+	font-size: 3em;
+	color: #724f42;
+	font-family: 'Rubik Gemstones', cursive;
+	margin-left: 4%;
+}
+
+#container {
+	width: 80%;
+	min-height: 500px;
+	background-color: #11181e;
+	margin: 0 auto;
+	font-size: 1.8em;
+	padding-bottom: 2%;
+	border: 5px solid #724f43;
+}
+
+#container img {
+	float: right;
+	margin-left: 10px;
+	border: 10px double #724f43;
+	border-radius: 10px;
+	margin-right: 10px;
+	max-width: 50%;
+	max-height: 450px;
+}
+
+#container p {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 1em;
+	color: #e4f2ea;
+	font-family: 'EB Garamond', serif;
+}
+
+#container form {
+	font-family: 'Acme', sans-serif;
+	color: #e4f2ea;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#container legend {
+	padding: 10px;
+	font-size: 1.5em;
+	padding-bottom: 2.5em;
+}
+
+tr {
+	text-align: left;
+}
+
+td {
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+#fName, #lName, #email {
+	padding: 10px;
+	border-radius: 10px;
+	border: 5px double #724f42;
+}
+
+#submit {
+	font-size: 1em;
+	border-radius: 10px;
+	border: 2px solid #724f42;
+	font-family: 'Acme', sans-serif;
+	color: #11181a;
+}
+
+#submit:hover {
+	color: #e4f2ea;
+	background-color: #724f43;
+	border: 2px solid #e4f2ea;
+	font-family: 'Rubik Vinyl', cursive;
+	font-size: 0.75em;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+table {
+	
+}
+
+footer {
+	min-height: 300px;
+	background-color: #11181e;
+	text-align: center;
+	color: #e4f2ea;
+	padding-top: 5%;
+}
+
+.fnav {
+	width: 100%;
+	background-color: #724f43;
+	min-height: 50px;
+	text-align: center;
+	padding-bottom: 0.8em;
+}
+
+.fnav ul {
+	display: block;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 2%;
+}
+
+.fnav a {
+	text-decoration: none;
+	color: #e4f2ea;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+}
+
+.fnav a:hover {
+	color: #11181a;
+	font-family: 'Rubik Vinyl', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
